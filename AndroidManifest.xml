@@ -14,12 +14,18 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.kaymannsoft.kmaps.Splash_Kmaps"
+            android:name="com.kaymannsoft.kmaps.gui.Splash_Kmaps"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".OptionKsolveActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.kaymannsoft.kmaps.gui.OPTIONKSOLVEACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

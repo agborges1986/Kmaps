@@ -20,7 +20,7 @@ public class Splash_Kmaps extends Activity{
 				}catch(InterruptedException e){
 					e.printStackTrace();
 				}finally{
-					Intent openSolve=new Intent(Splash_Kmaps.this,null);
+					Intent openSolve=new Intent(Splash_Kmaps.this,OptionKsolveActivity.class);
 					startActivity(openSolve);
 				}
 			}
